@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".65"
+        android:orientation="vertical"
+        android:background="@color/grey">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dp_100"
+            android:text="@string/app_name"
+            android:textColor="@color/purple_dark"
+            android:textSize="@dimen/dp_84"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/India"
+            android:textColor="@color/purple_dark"
+            android:textSize="@dimen/dp_30"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".35"
+        android:orientation="vertical"
+        android:layout_gravity="center|top"
+        android:background="@color/purple">
+
+        <LinearLayout
+            android:layout_width="@dimen/dp_280"
+            android:orientation="horizontal"
+
+            android:layout_marginTop="@dimen/dp_30"
+            android:layout_gravity="center"
+            android:background="@android:color/white"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:padding="@dimen/dp_4"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_40"
+                android:src="@drawable/google_icon"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_google"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:text="@string/Continue_WIth_Google"
+                android:textColor="@color/design_default_color_primary_dark"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/dp_280"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp_30"
+            android:layout_gravity="center"
+            android:background="@android:color/white"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:padding="@dimen/dp_4"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_40"
+                android:src="@drawable/facebook_icon"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_fb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:text="@string/Continue_WIth_Facebook"
+                android:textColor="@color/design_default_color_primary_dark"/>
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/login_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/white"
+            android:padding="@dimen/dp_4"
+            android:gravity="bottom"
+            android:text="@string/terms"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Sell On</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="SellOn" />
+    <string name="India">India</string>
+    <string name="Leading_Market">India\'s Leading \n Marketplace</string>
+    <string name="Continue_WIth_Google">Continue With Google</string>
+    <string name="Continue_WIth_Facebook">Continue With Facebook</string>
+    <string name="terms">If you are accepting SellOn \n Terms &amp; Conditions and Privacy policy</string>
+
+    <string name="facebook_app_id">931195244724811</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">3a1a9234a3801ae6f68a1dd920476f2f</string>
+    <string name="find">Find items here</string>
+    <string name="browse_categories">Browse Catrgories</string>
+
+
+</resources>

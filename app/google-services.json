@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "672616868377",
+    "project_id": "sellon-5602c",
+    "storage_bucket": "sellon-5602c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672616868377:android:cf9be1c896c2f2ccc05888",
+        "android_client_info": {
+          "package_name": "com.example.sellon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672616868377-61cgsoh16g4mk7u3jkpgqg8vcn3eg74e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sellon",
+            "certificate_hash": "83313de13b4473b86db46026c808edf798efba2c"
+          }
+        },
+        {
+          "client_id": "672616868377-8ghdqnnd08cpkd78810ei88pv0m18nug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKPp-q8YoA2jgj2gahGceOiRgadJ8z12c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672616868377-8ghdqnnd08cpkd78810ei88pv0m18nug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
